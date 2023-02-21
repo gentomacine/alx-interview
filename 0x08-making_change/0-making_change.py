@@ -1,5 +1,3 @@
-table File  25 lines (23 sloc)  623 Bytes
-
 #!/usr/bin/python3
 """Change making module.
 """
@@ -24,4 +22,4 @@ def makeChange(coins, total):
             coins_count += 1
         else:
             coin_idx += 1
-    return 
+    return coins_count
